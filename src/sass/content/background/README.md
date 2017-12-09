@@ -11,7 +11,7 @@
 >（background-color）
 
 | Name | Default | Demo |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | color | #fff | white、#fff、0,0,0|
 | alpha | 1 | .1、.3、.5 |
 
