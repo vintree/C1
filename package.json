@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "name": "c1",
+  "version": "1.0.0",
+  "description": "样式颗粒化",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "tiny-lr": "^1.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp dev",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuguzi/C1.git"
+  },
+  "keywords": [
+    "C1",
+    "care"
+  ],
+  "author": "vico",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wuguzi/C1/issues"
+  },
+  "homepage": "https://github.com/wuguzi/C1#readme"
+}
