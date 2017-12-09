@@ -1,0 +1,56 @@
+@mixin txtAlign($position: center) {
+    @if position == inh {
+        text-align: inherit;    
+    } @else {
+        text-align: $position;
+    }
+}
+
+@mixin txtDeco($decoration: underline) {
+    text-decoration: $decoration;
+}
+
+@mixin txtIndent($size: 2em) {
+    text-indent: $size;
+}
+
+@mixin txtTran($style: uppercase) {
+    @if $style == inh {
+        text-transform: inherit;        
+    } @else {
+        text-transform: $style;
+    }
+}
+
+@mixin whiteSpace($type: nowrap) {
+    @if $type == inh {
+        white-space: inherit;
+    } @else {
+        white-space: $style;
+    }
+}
+
+@mixin word($size: normal) {
+    @if $size == inh {
+        word-spacing: inherit;
+    } @else {
+        word-spacing: $size;
+    }
+}
+
+@mixin txtOver($type: ellipsis) {
+    text-overflow: $type;
+}
+
+@mixin txtSD($arg...) {
+    text-shadow: $arg;
+}
+
+@mixin wordBreak($type: break-all) {
+    word-break: $type;
+}
+
+@mixin wordWrap($type: break-word) {
+    word-wrap: $type;
+}
+

@@ -1,0 +1,7 @@
+@mixin over($prefix: null, $value) {
+    @if prefix == null {
+        overflow: $value;
+    } @else {
+        overflow-#{prefix}: $value;
+    }
+}

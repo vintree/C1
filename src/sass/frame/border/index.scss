@@ -1,0 +1,39 @@
+@mixin bd($position: null, $arg...) {
+    @if $position == null {
+        border-#{$position}: $arg;
+    } @else {
+        border: $arg;
+    }
+}
+
+@mixin bdWidth($width: 0) {
+    border-width: 0;
+}
+
+@mixin bdColor($color: #fff, $apl: 1) {
+    @if $apl == 1 {
+        border-color: $color;
+    } @else {
+        border-color: rgba($color, $apl);
+    }
+}
+
+@mixin bdRadius($radius: 0) {
+    border-radius: $radius;
+}
+
+@mixin out($arg...) {
+    outline: $arg;
+}
+
+@mixin outColor($color: #fff, $apl: 1) {
+    @if $apl == 1 {
+        outline: $color;
+    } @else {
+        outline: rgba($color, $apl);
+    }
+}
+
+@mixin outStyle($style: solid) {
+    outline-style: $style
+}

@@ -1,0 +1,32 @@
+@mixin font($prefix: null, $value...) {
+    @if prefix == null {
+        font: $value;
+    } @else {
+        font-#{$prefix}: $value;
+    }
+}
+
+@mixin fontSize($value: 12px) {
+    font-size: $value;
+}
+
+@mixin fontFamily($value) {
+    font-family: $value;
+}
+
+@mixin fontFamily($value) {
+    font-family: $value;
+}
+
+@mixin fontStyle($value) {
+    font-style: $value;
+}
+
+@mixin fontVariant($value) {
+    font-variant: $value;
+}
+
+@mixin fontWeight($value: bold) {
+    
+    font-weight: $value * 100;
+}

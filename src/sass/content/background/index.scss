@@ -1,8 +1,8 @@
 @mixin bgColor($color: #fff, $apl: 1) {
-    @if apl == 1 {
-        background-color: rgba($color, $apl);
-    } @else {
+    @if $apl == 1 {
         background-color: $color;
+    } @else {
+        background-color: rgba($color, $apl);
     }
 }
 
@@ -18,7 +18,6 @@
     @if $b == null {
         background-size: $a;
     } @else {
-        // length/percent
         background-size: $a $b;
     }
 }

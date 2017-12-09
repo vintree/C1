@@ -1,0 +1,16 @@
+@mixin width($prefix: null, $size) {
+    @if $prefix == null {
+        width: $size;
+    } @else {
+        #{$prefix}-width: $size;
+    }
+}
+
+@mixin height($prefix: null, $size) {
+    @if $prefix == null {
+        height: $size;
+    } @else {
+        #{$prefix}-height: $size;
+    }
+}
+
