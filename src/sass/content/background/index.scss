@@ -1,3 +1,11 @@
+@mixin bg($prefix: null, $value...) {
+    @if $prefix == null {
+        background: $value;
+    } @else {
+        background-#{$prefix}: $value;
+    }
+}
+
 @mixin bgColor($color: #fff, $apl: 1) {
     @if $apl == 1 {
         background-color: $color;
@@ -22,44 +30,18 @@
     }
 }
 
-@mixin bgRepeat($repeat: no) {
-    @if $repeat == y {
-        $repeat: repeat-y;
-    } @else if $repeat == x {
-        $repeat: repeat-x;
-    } @else if $repeat == none {
-        $repeat: no-repeat;
-    } @else if inh {
-        $repeat: inherit;
-    }
+@mixin bgRepeat($value: no-repeat) {
+    background-repeat: $value;
 }
 
 @mixin bgAtc($atc: scroll) {
-    @if $atc == scroll {
-        background-attachment: scroll;
-    } @else if $atc == fix {
-        background-attachment: fixed;       
-    } @else if $atc == inh {
-        background-attachment: inherit;        
-    }
+    background-attachment: scroll;
 }
 
-@mixin bgOrion($origon: padding) {
-    @if $origon == padding {
-        background-origin: padding-box;
-    } @else if $origon == border {
-        background-attachment: border-box;        
-    } @else if $origon == content {
-        background-origin: content-box;       
-    }
+@mixin bgOrion($value: padding) {
+    background-origin: $value;
 }
 
-@mixin bgClip($clip) {
-    @if $clip == padding {
-        background-origin: padding-box;
-    } @else if $clip == border {
-        background-attachment: border-box;        
-    } @else if $clip == content {
-        background-origin: content-box;       
-    }
+@mixin bgClip($value: padding-box) {
+    background-origin: $value;
 }

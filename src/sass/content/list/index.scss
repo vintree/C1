@@ -1,0 +1,19 @@
+@mixin listStyle($prefix: null, $value...) {
+    @if $prefix == null {
+        list-style: $value;
+    } @else {
+        list-style-#{$prefix}: $value;
+    }
+}
+
+@mixin listStyleImage($value) {
+    list-style-image: url($value);
+}
+
+@mixin listStyleType($value: circle) {
+    list-style-type: $value;
+}
+
+@mixin listStylePosition($value) {
+    list-style-position: $value;
+}

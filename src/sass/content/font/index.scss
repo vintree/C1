@@ -27,6 +27,6 @@
 }
 
 @mixin fontWeight($value: bold) {
-    
-    font-weight: $value * 100;
+    font-weight: $value;
 }
+

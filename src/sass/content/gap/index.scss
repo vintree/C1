@@ -1,0 +1,7 @@
+@mixin margin($prefix: null, $value...) {
+    @if $prefix == null {
+        margin: $value;
+    } @else {
+        margin-#{$prefix}: $value;
+    }
+}
