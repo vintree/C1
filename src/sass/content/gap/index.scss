@@ -5,3 +5,11 @@
         margin-#{$prefix}: $value;
     }
 }
+
+@mixin padding($prefix: null, $value...) {
+    @if $prefix == null {
+        padding: $value;
+    } @else {
+        padding-#{$prefix}: $value;
+    }
+}

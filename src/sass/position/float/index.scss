@@ -1,3 +1,7 @@
 @mixin float($type: left) {
     float: $type;
 }
+
+@mixin clear($type: none) {
+    clear: $type;
+}

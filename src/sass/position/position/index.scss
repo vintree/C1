@@ -1,0 +1,19 @@
+@mixin position($value: relative, $top: null, $right: null, $bottom: null, $left: null) {
+    position: $value;
+}
+
+@mixin top($value) {
+    top: $value;
+}
+
+@mixin left($value) {
+    top: $value;
+}
+
+@mixin right($value) {
+    top: $value;
+}
+
+@mixin bottom($value) {
+    top: $value;
+}

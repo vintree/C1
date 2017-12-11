@@ -1,0 +1,8 @@
+@mixin table($prefix: null, $arg...) {
+    @if $prefix == null {
+        table-#{$prefix}: $arg;
+    } @else {
+        table: $arg;
+    }
+}
+

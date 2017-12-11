@@ -1,6 +1,6 @@
-@mixin bd($position: null, $arg...) {
-    @if $position == null {
-        border-#{$position}: $arg;
+@mixin bd($prefix: null, $arg...) {
+    @if $prefix == null {
+        border-#{$prefix}: $arg;
     } @else {
         border: $arg;
     }
