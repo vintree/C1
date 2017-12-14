@@ -12,3 +12,7 @@
 
 @import './position/float/index.scss';
 @import './position/position/index.scss';
+
+.aa {
+    @include width(10)
+}

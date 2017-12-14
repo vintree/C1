@@ -1,4 +1,4 @@
-@mixin over($prefix: null, $value) {
+@mixin over($prefix: null, $value: hidden) {
     @if prefix == null {
         overflow: $value;
     } @else {

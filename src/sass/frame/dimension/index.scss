@@ -1,4 +1,4 @@
-@mixin width($prefix: null, $size) {
+@mixin width($prefix: null, $size: 0) {
     @if $prefix == null {
         width: $size;
     } @else {
@@ -6,7 +6,7 @@
     }
 }
 
-@mixin height($prefix: null, $size) {
+@mixin height($prefix: null, $size: 0) {
     @if $prefix == null {
         height: $size;
     } @else {
