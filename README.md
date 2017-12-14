@@ -20,7 +20,6 @@
 
 #### bgClip($value: padding-box)
 
-----------------------------
 
 ## Font
 
@@ -36,7 +35,7 @@
 
 #### fontWeight($value: bold)
 
--------------------
+
 
 ## Gap
 
@@ -44,7 +43,7 @@
 
 #### padding($prefix: null, $value...)
 
--------------------
+
 
 ## List
 
@@ -56,7 +55,7 @@
 
 #### listStylePosition($value)
 
--------------------
+
 
 ## Border
 
@@ -74,7 +73,7 @@
 
 #### outStyle($style: solid)
 
--------------------
+
 
 ## Dimension
 
@@ -82,25 +81,25 @@
 
 #### height($prefix: null, $size: 0)
 
--------------------
+
 
 ## Opacity
 
 #### opacity($value: 1)
 
--------------------
+
 
 ## overflow
 
 #### over($prefix: null, $value: hidden)
 
--------------------
+
 
 ## Table
 
 #### table($prefix: null, $arg...)
 
--------------------
+
 
 ## Float
 
@@ -108,7 +107,7 @@
 
 #### clear($type: none)
 
--------------------
+
 
 ## Position
 
