@@ -1,4 +1,4 @@
-@mixin position($value: relative, $top: null, $right: null, $bottom: null, $left: null) {
+@mixin position($value: relative) {
     position: $value;
 }
 
@@ -7,13 +7,13 @@
 }
 
 @mixin left($value) {
-    top: $value;
+    left: $value;
 }
 
 @mixin right($value) {
-    top: $value;
+    right: $value;
 }
 
 @mixin bottom($value) {
-    top: $value;
+    bottom: $value;
 }

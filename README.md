@@ -19,3 +19,105 @@
 ### bgOrion($value: padding)
 
 ### bgClip($value: padding-box)
+
+----------------------------
+
+## Font
+
+### font($prefix: null, $value...)
+
+### fontSize($value: 12px)
+
+### fontFamily($value: '-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"')
+
+### fontStyle($value: normal)
+
+### fontVariant($value: normal)
+
+### fontWeight($value: bold)
+
+-------------------
+
+## Gap
+
+### margin($prefix: null, $value...)
+
+### padding($prefix: null, $value...)
+
+-------------------
+
+## List
+
+### listStyle($prefix: null, $value...)
+
+### listStyleImage($value)
+
+### listStyleType($value: circle)
+
+### listStylePosition($value)
+
+-------------------
+
+## Border
+
+### bd($prefix: null, $arg...)
+
+### bdWidth($width: 0)
+
+### bdColor($color: #fff, $apl: 1)
+
+### bdRadius($radius: 0)
+
+### out($arg...)
+
+### outColor($color: #fff, $apl: 1)
+
+### outStyle($style: solid)
+
+-------------------
+
+## Dimension
+
+### width($prefix: null, $size: 0)
+
+### height($prefix: null, $size: 0)
+
+-------------------
+
+## Opacity
+
+### opacity($value: 1)
+
+-------------------
+
+## overflow
+
+### over($prefix: null, $value: hidden)
+
+-------------------
+
+## Table
+
+### table($prefix: null, $arg...)
+
+-------------------
+
+## Float
+
+### float($type: left)
+
+### clear($type: none)
+
+-------------------
+
+## Position
+
+### position($value: relative)
+
+### top($value)
+
+### left($value)
+
+### right($value)
+
+### bottom($value)

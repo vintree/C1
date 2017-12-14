@@ -10,19 +10,15 @@
     font-size: $value;
 }
 
-@mixin fontFamily($value) {
+@mixin fontFamily($value: '-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"') {
     font-family: $value;
 }
 
-@mixin fontFamily($value) {
-    font-family: $value;
-}
-
-@mixin fontStyle($value) {
+@mixin fontStyle($value: normal) {
     font-style: $value;
 }
 
-@mixin fontVariant($value) {
+@mixin fontVariant($value: normal) {
     font-variant: $value;
 }
 
