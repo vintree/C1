@@ -3,6 +3,7 @@
 @import './content/gap/index.scss';
 @import './content/list/index.scss';
 @import './content/text/index.scss';
+@import './content/display/index.scss';
 
 @import './frame/border/index.scss';
 @import './frame/dimension/index.scss';
@@ -12,7 +13,3 @@
 
 @import './position/float/index.scss';
 @import './position/position/index.scss';
-
-.aa {
-    @include width(10)
-}

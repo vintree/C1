@@ -1,0 +1,13 @@
+@import '../c1/index.scss';
+
+@each $key in left, right {
+    .f#{$key} {
+        @include float($key);
+    }
+}
+
+@each $key in block inline-block none  {
+    .#{$key} {
+        @include display($key);
+    }
+}

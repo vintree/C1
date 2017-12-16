@@ -1,4 +1,4 @@
-# C1文档s
+# C1文档
 
 ## Background
 
@@ -120,3 +120,7 @@
 #### right($value)
 
 #### bottom($value)
+
+## Display
+
+#### display($value: block)
