@@ -6,8 +6,30 @@
     }
 }
 
-@each $key in block inline-block none  {
+@each $key in block inline-block none {
     .#{$key} {
         @include display($key);
+    }
+}
+
+@each $key in visible, hidden, scroll, auto, inherit {
+    .over-#{$key} {
+        @include over($key);
+    }
+}
+
+@each $position in left, right, bottom, top {
+    @for $i from 1 through 10 {
+        .margin-#{$position}-#{$i} {
+            @include margin($position, $i);
+        }
+    }
+}
+
+@each $position in left, right, bottom, top {
+    @for $i from 1 through 10 {
+        .padding-#{$position}-#{$i} {
+            @include padding($position, $i#{'px'});
+        }
     }
 }
