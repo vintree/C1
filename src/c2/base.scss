@@ -14,7 +14,7 @@
 
 @each $key in visible, hidden, scroll, auto, inherit {
     .over-#{$key} {
-        @include over($key);
+        @include overflow($key);
     }
 }
 
