@@ -91,9 +91,9 @@
 
 
 
-## overflow
+## Overflow
 
-#### over($prefix: null, $value: hidden)
+#### overflow($prefix: null, $value: hidden)
 
 
 
