@@ -2,20 +2,24 @@
     position: $value;
 }
 
-@mixin top($value) {
+@mixin top($value: 0) {
     top: $value;
 }
 
-@mixin left($value) {
+@mixin left($value: 0) {
     left: $value;
 }
 
-@mixin right($value) {
+@mixin right($value: 0) {
     right: $value;
 }
 
-@mixin bottom($value) {
+@mixin bottom($value: 0) {
     bottom: $value;
+}
+
+@mixin zIndex($value: -1) {
+    z-index: $value;
 }
 
 @mixin flow($valu: row) {

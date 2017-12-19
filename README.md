@@ -113,13 +113,15 @@
 
 #### position($value: relative)
 
-#### top($value)
+#### top($value: 0)
 
-#### left($value)
+#### left($value: 0)
 
-#### right($value)
+#### right($value: 0)
 
-#### bottom($value)
+#### bottom($value: 0)
+
+#### zIndex($value: -1)
 
 ### flow($valu: row)
 

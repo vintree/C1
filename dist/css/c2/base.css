@@ -18,6 +18,14 @@
   display: none;
 }
 
+.table {
+  display: table;
+}
+
+.center-cell {
+  display: center-cell;
+}
+
 .over-visible {
   overflow: visible;
 }
@@ -196,6 +204,10 @@
 
 .margin-top-10 {
   margin-top: 10;
+}
+
+.margin-auto {
+  margin: auto;
 }
 
 .padding-left-1 {
@@ -404,4 +416,18 @@
 
 .flex-10 {
   flex: 1;
+}
+
+.all-center {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.justCenter {
+  justify-content: center;
+}
+
+.itemCenter {
+  align-content: center;
 }

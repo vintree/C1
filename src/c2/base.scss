@@ -6,7 +6,7 @@
     }
 }
 
-@each $key in block inline-block none {
+@each $key in block inline-block none table center-cell {
     .#{$key} {
         @include display($key);
     }
@@ -24,6 +24,10 @@
             @include margin($position, $i);
         }
     }
+}
+
+.margin-auto {
+    margin: auto;
 }
 
 @each $position in left, right, bottom, top {
@@ -64,3 +68,4 @@
 .itemCenter {
     @include alignItems(center);
 }
+
