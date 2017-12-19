@@ -121,6 +121,10 @@
 
 #### bottom($value)
 
+### flow($valu: row)
+
+### flex($value: 1)
+
 ## Display
 
 #### display($value: block)

@@ -33,3 +33,34 @@
         }
     }
 }
+
+.row {
+    @include flow(row);
+}
+
+.column {
+    @include flow(column);
+}
+
+@for $i from 1 through 10 {
+    .flex-#{$i} {
+        @include flex($i);
+    }
+}
+
+// 居中
+.all-center {
+    @include textAlign(center);
+    @include justifyContent(center);
+    @include alignItems(center);
+}
+
+// 水平居中
+.justCenter {
+    @include justifyContent(center);
+}
+
+// 垂直居中
+.itemCenter {
+    @include alignItems(center);
+}

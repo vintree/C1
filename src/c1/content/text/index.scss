@@ -1,4 +1,4 @@
-@mixin txtAlign($position: center) {
+@mixin textAlign($position: center) {
     @if position == inh {
         text-align: inherit;    
     } @else {

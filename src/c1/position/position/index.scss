@@ -17,3 +17,22 @@
 @mixin bottom($value) {
     bottom: $value;
 }
+
+@mixin flow($valu: row) {
+    flex-flow: row;
+}
+
+@mixin flex($value: 1) {
+    flex: 1
+}
+
+@mixin justifyContent($value: center) {
+    justify-content: center;
+}
+
+@mixin alignItems($value: center) {
+    align-content: center;
+}
+
+
+
