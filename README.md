@@ -125,6 +125,10 @@
 
 ### flex($value: 1)
 
+### justifyContent($value: center)
+
+### alignItems($value: center)
+
 ## Display
 
 #### display($value: block)
