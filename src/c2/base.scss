@@ -69,3 +69,10 @@
     @include alignItems(center);
 }
 
+// 鼠标 -------------------
+
+@each $key in default, auto, crosshair, pointer, move, e-resize, ne-resize, nw-resize, n-resize, se-resize, sw-resize, s-resize, w-resize, text, wait, help {
+    .curosr-#{$key} {
+        @include cursor($key);
+    }
+}

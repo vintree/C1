@@ -35,7 +35,9 @@
 
 #### fontWeight($value: bold)
 
+## Cursor
 
+### cursor($value: default)
 
 ## Gap
 
@@ -106,8 +108,6 @@
 #### float($type: left)
 
 #### clear($type: none)
-
-
 
 ## Position
 

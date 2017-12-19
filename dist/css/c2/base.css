@@ -431,3 +431,67 @@
 .itemCenter {
   align-content: center;
 }
+
+.curosr-default {
+  cursor: default;
+}
+
+.curosr-auto {
+  cursor: auto;
+}
+
+.curosr-crosshair {
+  cursor: crosshair;
+}
+
+.curosr-pointer {
+  cursor: pointer;
+}
+
+.curosr-move {
+  cursor: move;
+}
+
+.curosr-e-resize {
+  cursor: e-resize;
+}
+
+.curosr-ne-resize {
+  cursor: ne-resize;
+}
+
+.curosr-nw-resize {
+  cursor: nw-resize;
+}
+
+.curosr-n-resize {
+  cursor: n-resize;
+}
+
+.curosr-se-resize {
+  cursor: se-resize;
+}
+
+.curosr-sw-resize {
+  cursor: sw-resize;
+}
+
+.curosr-s-resize {
+  cursor: s-resize;
+}
+
+.curosr-w-resize {
+  cursor: w-resize;
+}
+
+.curosr-text {
+  cursor: text;
+}
+
+.curosr-wait {
+  cursor: wait;
+}
+
+.curosr-help {
+  cursor: help;
+}
