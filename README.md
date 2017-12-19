@@ -123,13 +123,13 @@
 
 #### zIndex($value: -1)
 
-### flow($valu: row)
+#### flow($valu: row)
 
-### flex($value: 1)
+#### flex($value: 1)
 
-### justifyContent($value: center)
+#### justifyContent($value: center)
 
-### alignItems($value: center)
+#### alignItems($value: center)
 
 ## Display
 
